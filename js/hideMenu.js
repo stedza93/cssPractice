@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(function(){
         $('#showPhoneNav').click(function(){
-            $('#myNav').slideToogle('normal', function(){
+            $('#myNav').slideToggle('normal', function(){
                 if($('#myNav').is(':visible')){
                     $('#showPhoneNav').text('Hide Navigation');
                 } else{
