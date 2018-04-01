@@ -1,0 +1,18 @@
+@media only screen and (min-width: 641px) {
+  nav ul {
+    padding: 0;
+    margin-left: 2%;
+  }
+  nav ul li {
+    margin: 0;
+    width: auto;
+  }
+  nav ul li a {
+    margin: 5px 10px 5px 0 ;
+    border-radius: 25px;
+    padding: 1em 1.5em;
+    font-size: 0.9em;
+    box-shadow: none;
+    box-shadow: 1px 1px 10px #e0e0e0;
+  }
+}

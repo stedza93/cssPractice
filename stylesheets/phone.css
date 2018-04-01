@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+html {
+  -webkit-text-size-adjust: none;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  background-color: #946269;
+  color: white;
+}
+
+#headerWrapper {
+  background-color: #946269;
+  font-family: "Indie Flower", cursive;
+}
+header {
+  padding: 1em 2% 0.5em 2%;
+}
+
+header h1 {
+  font-size: 3.1em;
+  color: #fff;
+}
+header h2 {
+  font-size: 1.9em;
+  color: #fff;
+  margin-left: 10px;
+}
+#navWrapper {
+  background-color: #73454b;
+}
+nav ul {
+  padding: 1em 0;
+}
+nav ul li {
+  margin: 0 2%;
+  width: 46%;
+  float: left;
+}
+nav ul li a {
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  background-color: #946269;
+  margin: 0.2em 0;
+  padding: 0.6em 0;
+  border-radius: 1em;
+  box-shadow: 1px 1px 10px #e0e0e0;
+}
+.row {
+ padding: 2% 2%;
+ line-height: 1.5em;
+}
+#footerWrapper{
+    background-color: #bb9197;
+}
+footer{
+    clear: both;
+    font-size: .8em;
+    color: #fff;
+    text-align: center;
+    padding: .6em;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
