@@ -3,9 +3,15 @@
     padding: 0;
     margin-left: 2%;
   }
+  .container{
+    display: none;
+  }
   nav ul li {
     margin: 0;
     width: auto;
+  }
+  #myNav{
+    display: block;
   }
   nav ul li a {
     margin: 5px 10px 5px 0 ;

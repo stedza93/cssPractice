@@ -3,9 +3,9 @@ $(document).ready(function(){
         $('#showPhoneNav').click(function(){
             $('#myNav').slideToggle('normal', function(){
                 if($('#myNav').is(':visible')){
-                    $('#showPhoneNav').text('Hide Navigation');
+                    $('#showPhoneNav').addClass('change');
                 } else{
-                    $('#showPhoneNav').text('Show Navigation');
+                    $('#showPhoneNav').removeClass('change');
                 }
             });
         });
