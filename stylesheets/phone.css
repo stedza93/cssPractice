@@ -47,6 +47,9 @@ nav ul li {
   width: 46%;
   float: left;
 }
+#myNav{
+  display: none;
+}
 nav ul li a {
   display: block;
   text-align: center;

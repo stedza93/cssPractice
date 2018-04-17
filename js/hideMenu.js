@@ -9,5 +9,15 @@ $(document).ready(function(){
                 }
             });
         });
+
+        $(window).on('resize', function(){
+            var win = $(this); //this = window
+            if (win.width() >= 641) { /* ... */ 
+                $('#myNav').css('display', 'block');
+            }
+            else {
+               
+            }
+      });
     });
 });
